@@ -18,4 +18,6 @@ Basic authentication usnig Express and MySQL in a Oracle Linux / CentOS / RHEL
             >>> 'jane_smith', 'test456'
             >>> 'alice_johnson', 'pass123'
 3. Run node server.js
-4. The site should run on http://localhost:3000
+4. The site should run on http://localhost:3007
+
+P.S. If you want to change the default root password of mysql, then you need to update the password in install_mysql.sh and server.js files

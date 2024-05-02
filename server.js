@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const path = require('path'); // Required for path manipulation
 
 const app = express();
-const port = 3000;
+const port = 3007;
 
 // Middleware
 app.use(bodyParser.json());
@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Password',
+    password: 'Password',   // If you used a different password in install_mysql.sh then update the same password here
     database: 'myapp'
 });
 

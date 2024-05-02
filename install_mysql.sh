@@ -8,10 +8,10 @@ echo "MySQL installed successfully"
 # Start MySQL service
 sudo systemctl start mysqld
 
-# Start MySQL service
+# Enable MySQL service after every reboot
 sudo systemctl enable mysqld
 
-# Set root password to 'Password'
+# Set root password to 'Password'. Update the password to something else if you want to
 sudo mysqladmin -u root password 'Password'
 
 # Create a database named 'myapp'
