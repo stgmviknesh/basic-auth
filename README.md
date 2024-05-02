@@ -14,13 +14,9 @@ Basic authentication usnig Express and MySQL in a Oracle Linux / CentOS / RHEL
         1. a DB named "myapp" which will be used by express
         2. a Table named "users" inside the DB
         3. three users
-            | --------------- |:-------------:|
-            | username        | Password      | 
-            | --------------- |:-------------:|
-            | john_doe        | password123   |
-            | jane_smith      | test456       |
-            | alice_johnson   | pass123       |
-            | --------------- |:-------------:|
+           1. john_doe : password123
+           2. jane_smith : test456
+           3. alice_johnson : pass123
 3. Run node server.js
 4. The site should run on http://localhost:3007
 
