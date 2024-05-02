@@ -8,9 +8,9 @@ Basic authentication usnig Express and MySQL in a Oracle Linux / CentOS / RHEL
 # Steps to follow
 1. Login to your OS VM
 2. Run the install_mysql.sh file 
-    i. This will install mysql-server 
-    ii. Password for root will be set to Password
-    iii. It will create 
+    1. This will install mysql-server 
+    2. Password for root will be set to Password
+    3. It will create 
         i. a DB named "myapp" which will be used by express
         ii. a Table named "users" inside the DB
         iii. three users username - password
